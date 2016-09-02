@@ -3,8 +3,8 @@
 Through the API you can access the following climate and atmospheric datasets:
 * [AIRS](http://www.skywatch.co/airs) (Level 2 and 3)
 * [GOSAT/ACOS](http://www.skywatch.co/gosat) (Level 2 and 3)
-* [MOPITT](http://www.skywatch.co/mopitt) (Level 2 and 3)
-* [OCO-2](http://www.skywatch.co/oco2) (Level 2 and 3)
+* [MOPITT](http://www.skywatch.co/mopitt) (Level 1 and 3)
+* [OCO-2](http://www.skywatch.co/oco2) (Level 2 only)
 * [TES](http://www.skywatch.co/tes) (Level 2 and 3)
 
 You can use the API to search datasets by data level, location, and date. The JSON response will return a signed URL to download the datasets that meet the search criteria.
@@ -43,7 +43,7 @@ If only one timestamp is passed in, a one day range is assumed. For example, if 
 
 ```curl -H "x-api-key: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p" https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/location/-71.1043443253471,-42.3150676015829/time/2009-12-25```
 
-If you get a status 200, you will receive a JSON list of CO2 satellite data files that match the criteria, their sizes, and signed URL to download. 
+If you get a status 200, you will receive a JSON list of CO2 satellite data files that match the criteria, their sizes, and signed URL to download. The signed URLs **expire 1 hour after being generated.**
 
 *Excerpt of a JSON response:*
 ```
@@ -60,7 +60,7 @@ If you get a status 200, you will receive a JSON list of CO2 satellite data file
 ```
 **Downloading the Data**
 
-Each signed URL can be directly downloaded through a browser or programmatically.
+Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
 
 **Troubleshooting**
 
