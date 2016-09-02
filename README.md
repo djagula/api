@@ -20,7 +20,7 @@ A personal alphanumeric api key will be provided to you upon request. If you wer
 
 **level**
 
-The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Only level 2 and level 3 datasets are available. If no data level is specified, both level 2 and level 3 datasets will be returned.
+The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, level 2 and level 3 datasets are available. If no data level is specified, datasets of all levels will be returned.
 
 **coordinates**
 
