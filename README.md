@@ -65,3 +65,12 @@ Each signed URL can be directly downloaded through a browser or programmatically
 **Troubleshooting**
 
 For any issues or questions, please contact dexter@skywatch.co.
+
+**Dataset Documentation**
+
+The following list are links to documentation on the individual datasets available through the API:
+* AIRS: [Version 5](http://disc.sci.gsfc.nasa.gov/AIRS/documentation/v5_docs); [Version 6](http://disc.sci.gsfc.nasa.gov/AIRS/documentation/v6_docs)
+* [GOSAT/ACOS](http://disc.sci.gsfc.nasa.gov/acdisc/documentation/ACOS.html)
+* [MOPITT](http://www.acom.ucar.edu/mopitt/file-spec.shtml)
+* [OCO-2](http://disc.sci.gsfc.nasa.gov/OCO-2/documentation/oco-2-v6)
+* [TES](https://eosweb.larc.nasa.gov/project/tes/tes_table)
