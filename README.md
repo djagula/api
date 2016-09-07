@@ -20,7 +20,7 @@ A personal alphanumeric api key will be provided to you upon request. If you wer
 
 **level**
 
-The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, level 2 and level 3 datasets are available. If no data level is specified, datasets of all levels will be returned.
+The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, 2, and 3 (L1, L2, L3) datasets are available. If no data level is specified, datasets of all levels will be returned.
 
 **coordinates**
 
@@ -62,15 +62,31 @@ If you get a status 200, you will receive a JSON list of CO2 satellite data file
 
 Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
 
-**Troubleshooting**
-
-For any issues or questions, please contact dexter@skywatch.co.
-
 **Dataset Documentation**
 
 The following list are links to documentation on the individual datasets available through the API:
-* AIRS: [Version 5](http://disc.sci.gsfc.nasa.gov/AIRS/documentation/v5_docs); [Version 6](http://disc.sci.gsfc.nasa.gov/AIRS/documentation/v6_docs)
+
+* AIRS: [Version 6](http://disc.sci.gsfc.nasa.gov/AIRS/documentation/v6_docs):
+  * [L3 data](http://disc.sci.gsfc.nasa.gov/AIRS/documentation/v6_docs/v6releasedocs-1/V6_L3_User_Guide.pdf)
 * [GOSAT/ACOS](http://disc.sci.gsfc.nasa.gov/acdisc/documentation/ACOS.html)
+  * [CAI L3 global radiance data](http://data.gosat.nies.go.jp/GosatUserInterfaceGateway/guig/doc/documents/GOSAT_ProductDescription_33_CAIL3_V2.00_en.pdf)
+  * [FTS SWIR L3 data](http://data.gosat.nies.go.jp/GosatUserInterfaceGateway/guig/doc/documents/GOSAT_ProductDescription_31_FTSSWIRL3_V2.02_en.pdf)
 * [MOPITT](http://www.acom.ucar.edu/mopitt/file-spec.shtml)
+  * [L3 data](http://www2.acom.ucar.edu/sites/default/files/mopitt/v6_users_guide_201309.pdf)
 * [OCO-2](http://disc.sci.gsfc.nasa.gov/OCO-2/documentation/oco-2-v6)
 * [TES](https://eosweb.larc.nasa.gov/project/tes/tes_table)
+  * [L3 data](http://tes.jpl.nasa.gov/uploadedfiles/TES_DPS_V11.8.pdf)
+
+**HDF Documentation and Resources**
+
+The following list are links to documentation and resources that relate to HDF (Hierarchical Data Format; .hdf) (HDF4 and HDF5) file formats:
+
+* [HDF5](https://www.hdfgroup.org/HDF5/) - all non-image datasets except AIRS
+* [HDF4](https://www.hdfgroup.org/products/hdf4/) - all AIRS datasets
+* Python libraries for HDF:
+  * HDF5 - [h5py](http://www.h5py.org/)
+  * HDF4 - [pyhdf](http://pysclint.sourceforge.net/pyhdf/)
+
+**Troubleshooting**
+
+For any issues or questions, please contact dexter@skywatch.co.
