@@ -13,7 +13,7 @@ You can use the API to search satellite imagery and datasets by wavelength (band
 API calls through the Command-Line Interface (CLI) or programmatically will return a JSON (JavaScript Object Notation) response with a signed URL to download imagery and datasets that meet the search criteria.
 
 ### API Usage
-```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<coordinates>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelengths>```
+```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<coordinates>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelength-band>```
 
 **NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. However, the **order of the fields is crucial**, even if some field are omitted. For example, ```resolution/<resolution>``` can't come after ```band/<wavelengths>``` even if ```cloud-cover/<cloud-cover>``` is omitted.
 
@@ -51,11 +51,13 @@ A list of longitude, latitude coordinate pairs as a flat, comma-separated list. 
 **instrument-satellite**
 
 Search criteria can be specified by the source of the data - either the instrument on-board the satellite or the satellite itself. Single or multiple sources can be specified. 
-Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and TES.* This field is not case-sensitive.
+
+Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and TES.* This field is not case-sensitive, and multiple sources can be specified.
 
 **data-level**
 
 The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, 2, and 3 (L1, L2, L3) datasets are available. If no data level is specified, datasets of all levels will be returned. Only a single level can be specified.
+
 Choices are: *1, 2, and 3.*
 
 **max-resolution**
@@ -66,10 +68,11 @@ This maximum resolution field is only applicable to imagery that's available thr
 
 This maximum cloud cover field is only applicable to imagery that's available through the API (i.e. Landsat-8). Cloud cover is given as a percentage (%) of the image covered by cloud (0 to 100). Images less-than or equal-to this cloud cover value will be returned. All climate/atmospheric datasets have a cloud cover of 0%, because it is not applicable.If cloud cover is omitted all imagery or data matching other search criteria will be returned.
 
-**wavelengths**
+**wavelength-band**
 
 Search criteria can be specified by the wavelength bands for imagery (i.e. Landsat-8) and by file type for non-imagery data (e.g. *Hierarchical-Data-Format*). 
-Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive.
+
+Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive, and multiple bands can be specified.
 
 ### Example API Calls
 
