@@ -1,0 +1,134 @@
+[
+   {
+      "area": "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2015092220150924_03TRCLV0100.h5?Signature=gJEu03oDKEZ6OjNwa4owbvBu1CM%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "CAI",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-22T00:20:41+00:00,2015-09-24T23:31:08+00:00]",
+      "resolution": 0,
+      "size": 99664480
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03N/2015.09.22/MOP03N-20150922-L3V4.2.2.he5?Signature=ZG%2FAQ0R2qr4RO5T8oF09Q7Ra3QY%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "MOPITT",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-22T00:12:19+00:00,2015-09-22T23:36:39+00:00]",
+      "resolution": 0,
+      "size": 2598981
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03J/2015.09.22/MOP03J-20150922-L3V4.2.3.he5?Signature=U3FyxvaPn2nznWYnd8UijsObjfA%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "MOPITT",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-22T00:00:25+00:00,2015-09-23T00:00:07+00:00]",
+      "resolution": 0,
+      "size": 9178544
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03T/2015.09.22/MOP03T-20150922-L3V4.2.1.he5?Signature=HHlz3Vzbx82XQJQrFmvGmo4CyQI%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "MOPITT",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-22T00:00:25+00:00,2015-09-23T00:00:07+00:00]",
+      "resolution": 0,
+      "size": 9288132
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRX3SPD/2015/AIRS.2015.09.22.L3.RetSup001.v6.0.31.0.G15280134936.hdf?Signature=pzuE6%2Bxkj8aHRJheygdgFnM%2Fsek%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "AIRS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-22T00:00:00+00:00,2015-09-23T00:00:00+00:00]",
+      "resolution": 0,
+      "size": 502340273
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRX3STD/2015/AIRS.2015.09.22.L3.RetStd001.v6.0.31.0.G15280124728.hdf?Signature=sTAQ0hICVtCaTeO8U2ZqMM92sew%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "AIRS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-22T00:00:00+00:00,2015-09-23T00:00:00+00:00]",
+      "resolution": 0,
+      "size": 398505230
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRS3SPD/2015/AIRS.2015.09.22.L3.RetSup_IR001.v6.0.31.0.G15281130953.hdf?Signature=VjU5pF3PLEFB2fAHK%2Bl1oBcxXLM%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "AIRS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-22T00:00:00+00:00,2015-09-23T00:00:00+00:00]",
+      "resolution": 0,
+      "size": 495941035
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRS3STD/2015/AIRS.2015.09.22.L3.RetStd_IR001.v6.0.31.0.G15281123620.hdf?Signature=y2CZAF6DtcWAJXbzVUR5OL0HMrw%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "AIRS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-22T00:00:00+00:00,2015-09-23T00:00:00+00:00]",
+      "resolution": 0,
+      "size": 360948499
+   },
+   {
+      "area": "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2015092120150923_03TRCLV0100.h5?Signature=PjTGQjqrQj8HF%2FSe05fLmSMeVrM%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "CAI",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-21T00:00:37+00:00,2015-09-23T23:59:00+00:00]",
+      "resolution": 0,
+      "size": 99664480
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03J/2015.09.21/MOP03J-20150921-L3V4.2.3.he5?Signature=WpvMRbCY3bH%2FUx4EidoVY7f9fVA%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "MOPITT",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-21T00:00:11+00:00,2015-09-22T00:00:04+00:00]",
+      "resolution": 0,
+      "size": 9001556
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03T/2015.09.21/MOP03T-20150921-L3V4.2.1.he5?Signature=v%2BweFa9RxgHcnyujXrYYxVg63Js%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "MOPITT",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-21T00:00:11+00:00,2015-09-22T00:00:04+00:00]",
+      "resolution": 0,
+      "size": 9082238
+   },
+   {
+      "area": "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2015092020150922_03TRCLV0100.h5?Signature=MJjNdR5kLOe9MAKZ9tbz8ienSQg%3D&Expires=1474513653&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "CAI",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-09-20T00:00:36+00:00,2015-09-22T23:58:58+00:00]",
+      "resolution": 0,
+      "size": 99664480
+   }
+]
