@@ -13,19 +13,19 @@ You can use the API to search satellite imagery and datasets by wavelength (band
 There are two ways to use the API: [Graphical User Interface](https://app.skywatch.co) (GUI) or Command-Line Interface (CLI). The GUI can only be used to search for Landsat-8 imagery. API calls through the CLI will return a JSON (JavaScript Object Notation) response with a signed URL to download imagery and datasets that meet the search criteria.
 
 ### API Usage
-```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<times>/location/<coordinates>/source/<instrument-satellite>/data-level/<data-levels>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelengths>```
+```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<coordinates>/source/<instrument-satellite>/data-level/<data-levels>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelengths>```
 
-**NOTE:** ```time/<times>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. However, the **order of the fields is crucial**, even if some field are ommitted. For example, ```resolution/<resolution>``` can't come after ```band/<wavelengths>``` even if ```cloud-cover/<cloud-cover>``` is ommitted.
+**NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. However, the **order of the fields is crucial**, even if some field are omitted. For example, ```resolution/<resolution>``` can't come after ```band/<wavelengths>``` even if ```cloud-cover/<cloud-cover>``` is omitted.
 
-**NOTE:** The API supports backward compatability with versions 0.1 and 0.2. e.g. ```https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/datalevel/<datalevel>/location/<coordinates>/time/<times>```
+**NOTE:** The API supports backward compatibility with versions 0.1 and 0.2. e.g. ```https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/data-level/<data-level>/location/<coordinates>/time/<time-period>```
 
-Where:
+API fields:
 
 **api-key**
 
 A personal API key will be created for you once you register at [app.skywatch.co](https://app.skywatch.co).
 
-**times** 
+**time-period** 
 
 One or two UTC timestamps in ISO format (yyyy-mm-ddThh:mm:ss.sssss+|-zzzz). Partial or complete dates and timestamps can be specified (e.g. 2009, 2009-12, 2009-12-25, 2009-12-25T13:25:00.0000+0000). If no time is specified, midnight UTC on the day in question is assumed. 
 
@@ -38,7 +38,7 @@ A list of longitude, latitude coordinate pairs as a flat, comma-separated list. 
 *Examples:* 
 * Point: -71.1043443253,-42.3150676016
 * Square:  -71.1043443253471,-42.3150676015829,71.1043443253471,42.3150676015829
-* Polygon: -71.1043443253471,-42.3150676015829,71.1043443253471,-42.3150676015829,71.1043443253471,42.3150676015829,-71.1043443253471,42.3150676015829,-71.1043443253471,-42.3150676015829
+* Polygon: 43.81173831375078,-79.69345092773438,43.51668853502909,-79.70581054687499,43.463884091369046,-79.38995361328125,43.69865837138954,-79.34463500976562,43.875128129336716,-79.34188842773438,43.81173831375078,-79.69345092773438
 
 **instrument-satellite**
 
@@ -51,11 +51,11 @@ The data level is an optional path of the API URL that corresponds to the [data 
 
 **max-resolution**
 
-This maximum resolution field is only applicable to imagery that's available through the API (i.e. Landsat-8). Resolution is in metres (m). Resolutions less-than or equal-to this value will be returned. The resolution for Landsat-8 is 15 m. The maximum resolution is 30 m. If resolution is ommitted all imagery or data matching other search criteria will be returned.
+This maximum resolution field is only applicable to imagery that's available through the API (i.e. Landsat-8). Resolution is in metres (m). Resolutions less-than or equal-to this value will be returned. The resolution for Landsat-8 is 15 m. The maximum resolution is 30 m. If resolution is omitted all imagery or data matching other search criteria will be returned.
 
 **max-cloudcover**
 
-This maximum cloud cover field is only applicable to imagery that's available through the API (i.e. Landsat-8). Cloud cover is given as a percentage (%) of the image covered by cloud (0 to 100). Images less-than or equal-to this cloud cover value will be returned. If cloud cover is ommitted all imagery or data matching other search criteria will be returned.
+This maximum cloud cover field is only applicable to imagery that's available through the API (i.e. Landsat-8). Cloud cover is given as a percentage (%) of the image covered by cloud (0 to 100). Images less-than or equal-to this cloud cover value will be returned. If cloud cover is omitted all imagery or data matching other search criteria will be returned.
 
 **wavelengths**
 
@@ -66,11 +66,11 @@ Search criteria can be specified by the wavelength bands for imagery (i.e. Lands
 
 Examples of API calls and outputs can be found [HERE](https://github.com/skywatchspaceapps/api/blob/master/EXAMPLES.md).
 
-**Downloading the Data**
+### Downloading the Data
 
 Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
 
-**Dataset Documentation**
+### Dataset Documentation
 
 The following list are links to documentation on the individual datasets available through the API:
 
@@ -85,7 +85,7 @@ The following list are links to documentation on the individual datasets availab
 * [TES](https://eosweb.larc.nasa.gov/project/tes/tes_table)
   * [L3 data](http://tes.jpl.nasa.gov/uploadedfiles/TES_DPS_V11.8.pdf)
 
-**HDF Documentation and Resources**
+### HDF Documentation and Resources
 
 The following list are links to documentation and resources that relate to HDF (Hierarchical Data Format; .hdf) (HDF4 and HDF5) file formats:
 
@@ -95,6 +95,10 @@ The following list are links to documentation and resources that relate to HDF (
   * HDF5 - [h5py](http://www.h5py.org/)
   * HDF4 - [pyhdf](http://pysclint.sourceforge.net/pyhdf/)
 
-**Troubleshooting**
+### Known Issues
+
+* API calls that take longer than 30 seconds to complete will time out. We recommend refining your search criteria to be narrow enough to complete within 30 seconds.
+
+### Troubleshooting
 
 For any issues or questions, please contact dexter@skywatch.co.
