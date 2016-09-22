@@ -1,16 +1,16 @@
 # SkyWatch API
 ### Overview
 Through the API you can access the following satellite imagery and climate/atmospheric datasets:
-* [Landsat-8](http://www.skywatch.co/landsat8-1) (Level 1 - imagery only)
-* [AIRS](http://www.skywatch.co/airs) (Level 2 and 3)
-* [GOSAT/ACOS](http://www.skywatch.co/gosat) (Level 2 and 3)
-* [MOPITT](http://www.skywatch.co/mopitt) (Level 1 and 3)
-* [OCO-2](http://www.skywatch.co/oco2) (Level 2 only)
-* [TES](http://www.skywatch.co/tes) (Level 2 and 3)
+* [Landsat-8](http://www.skywatch.co/landsat8-1) (Data level: level 1 - imagery only)
+* [AIRS](http://www.skywatch.co/airs) (Data level: level 2 and 3)
+* [GOSAT/ACOS](http://www.skywatch.co/gosat) (Data level: level 2 and 3)
+* [MOPITT](http://www.skywatch.co/mopitt) (Data level: level 1 and 3)
+* [OCO-2](http://www.skywatch.co/oco2) (Data level: level 2 only)
+* [TES](http://www.skywatch.co/tes) (Data level: level 2 and 3)
 
 You can use the API to search satellite imagery and datasets by wavelength (band), cloud cover, resolution, data level, source, location, and date-time. 
 
-There are two ways to use the API: [Graphical User Interface](https://app.skywatch.co) (GUI) or Command-Line Interface (CLI). The GUI can only be used to search for Landsat-8 imagery. API calls through the CLI will return a JSON (JavaScript Object Notation) response with a signed URL to download imagery and datasets that meet the search criteria.
+API calls through the Command-Line Interface (CLI) or programmatically will return a JSON (JavaScript Object Notation) response with a signed URL to download imagery and datasets that meet the search criteria.
 
 ### API Usage
 ```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<coordinates>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelengths>```
@@ -60,11 +60,11 @@ Choices are: *1, 2, and 3.*
 
 **max-resolution**
 
-This maximum resolution field is only applicable to imagery that's available through the API (i.e. Landsat-8). Resolution is in metres (m). Resolutions less-than or equal-to this value will be returned. The resolution for Landsat-8 is 15 m. The maximum resolution is 30 m. If resolution is omitted all imagery or data matching other search criteria will be returned.
+This maximum resolution field is only applicable to imagery that's available through the API (i.e. Landsat-8). Resolution is in metres (m). Resolutions less-than or equal-to this value will be returned. The resolution for Landsat-8 is 15 m. All climate/atmospheric datasets have a resolution of 0 m, because it is not applicable. The maximum resolution is 30 m. If resolution is omitted all imagery or data matching other search criteria will be returned.
 
 **max-cloudcover**
 
-This maximum cloud cover field is only applicable to imagery that's available through the API (i.e. Landsat-8). Cloud cover is given as a percentage (%) of the image covered by cloud (0 to 100). Images less-than or equal-to this cloud cover value will be returned. If cloud cover is omitted all imagery or data matching other search criteria will be returned.
+This maximum cloud cover field is only applicable to imagery that's available through the API (i.e. Landsat-8). Cloud cover is given as a percentage (%) of the image covered by cloud (0 to 100). Images less-than or equal-to this cloud cover value will be returned. All climate/atmospheric datasets have a cloud cover of 0%, because it is not applicable.If cloud cover is omitted all imagery or data matching other search criteria will be returned.
 
 **wavelengths**
 
