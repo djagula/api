@@ -13,11 +13,11 @@ You can use the API to search satellite imagery and datasets by wavelength (band
 There are two ways to use the API: [Graphical User Interface](https://app.skywatch.co) (GUI) or Command-Line Interface (CLI). The GUI can only be used to search for Landsat-8 imagery. API calls through the CLI will return a JSON (JavaScript Object Notation) response with a signed URL to download imagery and datasets that meet the search criteria.
 
 ### API Usage
-```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<coordinates>/source/<instrument-satellite>/data-level/<data-levels>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelengths>```
+```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<coordinates>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelengths>```
 
 **NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. However, the **order of the fields is crucial**, even if some field are omitted. For example, ```resolution/<resolution>``` can't come after ```band/<wavelengths>``` even if ```cloud-cover/<cloud-cover>``` is omitted.
 
-**NOTE:** The API supports backward compatibility with versions 0.1 and 0.2. e.g. ```https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/data-level/<data-level>/location/<coordinates>/time/<time-period>```
+**NOTE:** The API supports backward compatibility with versions 0.1 and 0.2. e.g. ```https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/level/<data-level>/location/<coordinates>/time/<time-period>```
 
 ### Search Results, Limits, and Downloading the Data
 
@@ -55,7 +55,7 @@ Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and
 
 **data-level**
 
-The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, 2, and 3 (L1, L2, L3) datasets are available. If no data level is specified, datasets of all levels will be returned. 
+The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, 2, and 3 (L1, L2, L3) datasets are available. If no data level is specified, datasets of all levels will be returned. Only a single level can be specified.
 Choices are: *1, 2, and 3.*
 
 **max-resolution**
