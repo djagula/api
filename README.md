@@ -19,13 +19,15 @@ There are two ways to use the API: [Graphical User Interface](https://app.skywat
 
 **NOTE:** The API supports backward compatibility with versions 0.1 and 0.2. e.g. ```https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/data-level/<data-level>/location/<coordinates>/time/<time-period>```
 
-### Search Results and Downloading the Data
+### Search Results, Limits, and Downloading the Data
 
 The search results from the JSON response are sorted by descending order of the date and time the image or the data were captured.
 
+The current API limits are 1000 requests per second, and 2000 bursts per request. 
+
 Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
 
-API fields:
+### API Fields
 
 **api-key**
 
@@ -51,7 +53,6 @@ A list of longitude, latitude coordinate pairs as a flat, comma-separated list. 
 Search criteria can be specified by the source of the data - either the instrument on-board the satellite or the satellite itself. Single or multiple sources can be specified. 
 Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and TES.* This field is not case-sensitive.
 
-
 **data-level**
 
 The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, 2, and 3 (L1, L2, L3) datasets are available. If no data level is specified, datasets of all levels will be returned. 
@@ -69,7 +70,6 @@ This maximum cloud cover field is only applicable to imagery that's available th
 
 Search criteria can be specified by the wavelength bands for imagery (i.e. Landsat-8) and by file type for non-imagery data (e.g. *Hierarchical-Data-Format*). 
 Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive.
-
 
 ### Example API Calls
 
