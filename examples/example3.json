@@ -1,0 +1,35 @@
+[
+   {
+      "area": "POLYGON((30.0174 47.74581,30.0174 49.91819,33.32572 49.91819,33.32572 47.74581,30.0174 47.74581))",
+      "level": 1,
+      "cloud_cover": 21.3,
+      "download_path": "https://s3-us-west-2.amazonaws.com/landsat-pds/L8/180/026/LC81800262015265LGN00/LC81800262015265LGN00_B3.TIF",
+      "source": "Landsat-8",
+      "band": "Green",
+      "time": "[2015-09-22T00:00:00+00:00,2015-09-23T00:00:00+00:00]",
+      "resolution": 30,
+      "size": 61978532
+   },
+   {
+      "area": "POLYGON((30.0174 47.74581,30.0174 49.91819,33.32572 49.91819,33.32572 47.74581,30.0174 47.74581))",
+      "level": 1,
+      "cloud_cover": 21.3,
+      "download_path": "https://s3-us-west-2.amazonaws.com/landsat-pds/L8/180/026/LC81800262015265LGN00/LC81800262015265LGN00_B2.TIF",
+      "source": "Landsat-8",
+      "band": "Blue",
+      "time": "[2015-09-22T00:00:00+00:00,2015-09-23T00:00:00+00:00]",
+      "resolution": 30,
+      "size": 60217070
+   },
+   {
+      "area": "POLYGON((30.0174 47.74581,30.0174 49.91819,33.32572 49.91819,33.32572 47.74581,30.0174 47.74581))",
+      "level": 1,
+      "cloud_cover": 21.3,
+      "download_path": "https://s3-us-west-2.amazonaws.com/landsat-pds/L8/180/026/LC81800262015265LGN00/LC81800262015265LGN00_B4.TIF",
+      "source": "Landsat-8",
+      "band": "Red",
+      "time": "[2015-09-22T00:00:00+00:00,2015-09-23T00:00:00+00:00]",
+      "resolution": 30,
+      "size": 64285169
+   }
+]
