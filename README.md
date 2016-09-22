@@ -52,7 +52,7 @@ A list of longitude, latitude coordinate pairs as a flat, comma-separated list. 
 
 Search criteria can be specified by the source of the data - either the instrument on-board the satellite or the satellite itself. Single or multiple sources can be specified. 
 
-Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and TES.* This field is not case-sensitive, and multiple sources can be specified.
+Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and TES.* This field is not case-sensitive, and multiple sources can be specified (separated by commas).
 
 **data-level**
 
@@ -72,7 +72,7 @@ This maximum cloud cover field is only applicable to imagery that's available th
 
 Search criteria can be specified by the wavelength bands for imagery (i.e. Landsat-8) and by file type for non-imagery data (e.g. *Hierarchical-Data-Format*). 
 
-Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive, and multiple bands can be specified.
+Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive, and multiple bands can be specified (separated by commas).
 
 ### Example API Calls
 
