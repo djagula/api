@@ -8,7 +8,7 @@ Through the API you can access the following satellite imagery and climate/atmos
 * [OCO-2](http://www.skywatch.co/oco2) (Level 2 only)
 * [TES](http://www.skywatch.co/tes) (Level 2 and 3)
 
-You can use the API to search satellite imagery and datasets by wavelength (band), cloud cover, resolution, data level, source, location, and date. 
+You can use the API to search satellite imagery and datasets by wavelength (band), cloud cover, resolution, data level, source, location, and date-time. 
 
 There are two ways to use the API: [Graphical User Interface](https://app.skywatch.co) (GUI) or Command-Line Interface (CLI). The GUI can only be used to search for Landsat-8 imagery. API calls through the CLI will return a JSON (JavaScript Object Notation) response with a signed URL to download imagery and datasets that meet the search criteria.
 
@@ -18,6 +18,12 @@ There are two ways to use the API: [Graphical User Interface](https://app.skywat
 **NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. However, the **order of the fields is crucial**, even if some field are omitted. For example, ```resolution/<resolution>``` can't come after ```band/<wavelengths>``` even if ```cloud-cover/<cloud-cover>``` is omitted.
 
 **NOTE:** The API supports backward compatibility with versions 0.1 and 0.2. e.g. ```https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/data-level/<data-level>/location/<coordinates>/time/<time-period>```
+
+### Search Results and Downloading the Data
+
+The search results from the JSON response are sorted by descending order of the date and time the image or the data were captured.
+
+Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
 
 API fields:
 
@@ -42,12 +48,14 @@ A list of longitude, latitude coordinate pairs as a flat, comma-separated list. 
 
 **instrument-satellite**
 
-Search criteria can be specified by the source of the data - either the instrument on-board the satellite or the satellite itself. Single or multiple sources can be specified. Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and TES.* This field is not case-sensitive.
+Search criteria can be specified by the source of the data - either the instrument on-board the satellite or the satellite itself. Single or multiple sources can be specified. 
+Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and TES.* This field is not case-sensitive.
 
 
 **data-level**
 
-The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, 2, and 3 (L1, L2, L3) datasets are available. If no data level is specified, datasets of all levels will be returned. Choices are: *1, 2, and 3.*
+The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, 2, and 3 (L1, L2, L3) datasets are available. If no data level is specified, datasets of all levels will be returned. 
+Choices are: *1, 2, and 3.*
 
 **max-resolution**
 
@@ -59,16 +67,13 @@ This maximum cloud cover field is only applicable to imagery that's available th
 
 **wavelengths**
 
-Search criteria can be specified by the wavelength bands for imagery (i.e. Landsat-8) and by file type for non-imagery data (e.g. *Hierarchical-Data-Format*). Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive.
+Search criteria can be specified by the wavelength bands for imagery (i.e. Landsat-8) and by file type for non-imagery data (e.g. *Hierarchical-Data-Format*). 
+Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive.
 
 
 ### Example API Calls
 
 Examples of API calls and outputs can be found [HERE](https://github.com/skywatchspaceapps/api/blob/master/EXAMPLES.md).
-
-### Downloading the Data
-
-Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
 
 ### Dataset Documentation
 
