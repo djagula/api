@@ -1,0 +1,112 @@
+[
+   {
+      "area": "POLYGON((-149.242446899414 -84.9443054199219,-149.242446899414 49.8047904968262,166.443588256836 49.8047904968262,166.443588256836 -84.9443054199219,-149.242446899414 -84.9443054199219))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_38_Production_v161160_L2s30504_r01_PolB_160129193523.h5?Signature=mwQnOxH%2B3xY8W0zPGSxP%2BD9AEkQ%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T21:45:38.372000+00:00,2009-12-25T22:29:42.853000+00:00]",
+      "resolution": 0,
+      "size": 2749116
+   },
+   {
+      "area": "POLYGON((-178.481857299805 -84.0606689453125,-178.481857299805 51.3961486816406,171.769073486328 51.3961486816406,171.769073486328 -84.0606689453125,-178.481857299805 -84.0606689453125))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_35_Production_v161160_L2s30504_r01_PolB_160129193518.h5?Signature=ZoRDczyODtRMrq6lvmgpmtqLdwA%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T20:07:45.213000+00:00,2009-12-25T20:51:22.931000+00:00]",
+      "resolution": 0,
+      "size": 3390192
+   },
+   {
+      "area": "POLYGON((-174.490875244141 -84.9477386474609,-174.490875244141 51.193187713623,173.537780761719 51.193187713623,173.537780761719 -84.9477386474609,-174.490875244141 -84.9477386474609))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_32_Production_v161160_L2s30504_r01_PolB_160129193512.h5?Signature=5eyBtCu7DNfgKqowW9lKiY6L8Vw%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T18:29:11.877000+00:00,2009-12-25T19:13:11.864000+00:00]",
+      "resolution": 0,
+      "size": 2581921
+   },
+   {
+      "area": "POLYGON((-179.744873046875 -84.6547317504883,-179.744873046875 8.14056777954102,176.210739135742 8.14056777954102,176.210739135742 -84.6547317504883,-179.744873046875 -84.6547317504883))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_29_Production_v161160_L2s30504_r01_PolB_160129193502.h5?Signature=Ib8DuTOln9h0TqUyAYZTGoik1eY%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T17:03:03.352000+00:00,2009-12-25T17:34:38.592000+00:00]",
+      "resolution": 0,
+      "size": 1308855
+   },
+   {
+      "area": "POLYGON((-177.749252319336 -84.6521835327148,-177.749252319336 -37.5767250061035,176.490112304688 -37.5767250061035,176.490112304688 -84.6521835327148,-177.749252319336 -84.6521835327148))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_26_Production_v161160_L2s30504_r01_PolB_160129193457.h5?Signature=50u4BiaA6OSRv%2F0jncYs94smsrc%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T15:37:48.435000+00:00,2009-12-25T15:56:50.035000+00:00]",
+      "resolution": 0,
+      "size": 1151860
+   },
+   {
+      "area": "POLYGON((-152.231307983398 -83.295036315918,-152.231307983398 51.478946685791,1.52959644794464 51.478946685791,1.52959644794464 -83.295036315918,-152.231307983398 -83.295036315918))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_23_Production_v161160_L2s30504_r01_PolB_160129193452.h5?Signature=sZ7tdGC7cjaNZMxT%2FF5IpMlV6e0%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T13:34:43.735000+00:00,2009-12-25T14:14:56.269000+00:00]",
+      "resolution": 0,
+      "size": 2493449
+   },
+   {
+      "area": "POLYGON((-137.205551147461 -84.0592041015625,-137.205551147461 30.6726818084717,19.1211376190186 30.6726818084717,19.1211376190186 -84.0592041015625,-137.205551147461 -84.0592041015625))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_20_Production_v161160_L2s30504_r01_PolB_160129193447.h5?Signature=96dM2mAS32LiSQWOn4rt68CiDck%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T12:02:16.246000+00:00,2009-12-25T12:36:40.979000+00:00]",
+      "resolution": 0,
+      "size": 3404578
+   },
+   {
+      "area": "POLYGON((-117.885963439941 -84.9443283081055,-117.885963439941 43.3044471740723,44.4729995727539 43.3044471740723,44.4729995727539 -84.9443283081055,-117.885963439941 -84.9443283081055))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_17_Production_v161160_L2s30504_r01_PolB_160129193432.h5?Signature=g2qPVovsX5gxxbT5zO35annUbgI%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T10:20:49.229000+00:00,2009-12-25T10:59:37.069000+00:00]",
+      "resolution": 0,
+      "size": 2585404
+   },
+   {
+      "area": "POLYGON((-107.421119689941 -84.0602188110352,-107.421119689941 48.669921875,75.1606063842773 48.669921875,75.1606063842773 -84.0602188110352,-107.421119689941 -84.0602188110352))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_14_Production_v161160_L2s30504_r01_PolB_160129193427.h5?Signature=iKnwK%2B3n8Wp673f1FDkPypL77d0%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T08:40:51.220000+00:00,2009-12-25T09:22:59.781000+00:00]",
+      "resolution": 0,
+      "size": 3418359
+   },
+   {
+      "area": "POLYGON((-74.0481185913086 -84.063850402832,-74.0481185913086 51.3925628662109,95.0090637207031 51.3925628662109,95.0090637207031 -84.063850402832,-74.0481185913086 -84.063850402832))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/ACOS-L2/acos_L2s_091225_11_Production_v161160_L2s30504_r01_PolB_160129193422.h5?Signature=%2FGbyqJ6Wy6fulih8wOCVukv0K0A%3D&Expires=1474514442&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "ACOS",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2009-12-25T07:02:17.871000+00:00,2009-12-25T07:42:57.206000+00:00]",
+      "resolution": 0,
+      "size": 2550115
+   }
+]
