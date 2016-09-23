@@ -31,7 +31,7 @@ Each signed URL can be directly downloaded through a browser or programmatically
 
 **api-key**
 
-A personal API key will be created for you once you register at [app.skywatch.co](https://app.skywatch.co).
+If you would like an API key please contact duncan@skywatch.co. A personal API key will be provided to you.
 
 **time-period** 
 
