@@ -62,7 +62,7 @@ Choices are: *1, 2, and 3.*
 
 **max-resolution**
 
-This maximum resolution field is only applicable to imagery that's available through the API (i.e. Landsat-8). Resolution is in metres (m). Resolutions less-than or equal-to this value will be returned. The resolution for Landsat-8 is 15 m. All climate/atmospheric datasets have a resolution of 0 m, because it is not applicable. The maximum resolution is 30 m. If resolution is omitted all imagery or data matching other search criteria will be returned.
+This maximum resolution field is only applicable to imagery that's available through the API (i.e. Landsat-8). Resolution is in metres (m). Resolutions less-than or equal-to this value will be returned. The resolution for Landsat-8 is 30 m. All climate/atmospheric datasets have a resolution of 0 m, because it is not applicable. The maximum resolution is 30 m. If resolution is omitted all imagery or data matching other search criteria will be returned.
 
 **max-cloudcover**
 
