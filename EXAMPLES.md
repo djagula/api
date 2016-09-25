@@ -6,13 +6,13 @@ If you get a status 200, you will receive a JSON list of satellite data or image
 
 One of the words largest landfills "Olusosun Dump" in Nigeria in August 1, 2015:
 
-```curl -H "x-api-key: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p" https://api.skywatch.co/data/time/2015-8/location/6.566358,3.367358,6.586358,3.387358```
+```curl -H "x-api-key: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p" https://api.skywatch.co/data/time/2015-8-1/location/6.566358,3.367358,6.586358,3.387358```
 
 **[JSON output](https://github.com/skywatchspaceapps/api/blob/master/examples/example1.json)**
 
-Monitoring an Imperial Oil refinery in Sarnia, Canada in 2015:
+Monitoring an Imperial Oil refinery in Sarnia, Canada in June 1, 2015:
 
-```curl -H "x-api-key: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p" https://api.skywatch.co/data/time/2015/location/36.281389,-80.060278/level/3```
+```curl -H "x-api-key: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p" https://api.skywatch.co/data/time/2015-6-1/location/36.281389,-80.060278/level/3```
 
 **[JSON output](https://github.com/skywatchspaceapps/api/blob/master/examples/example2.json)**
 
