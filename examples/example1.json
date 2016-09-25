@@ -1,233 +1,244 @@
 [
    {
-      "area": "POLYGON((-149.970947265625 -22.8029327392578,-149.970947265625 79.5669021606445,154.897994995117 79.5669021606445,154.897994995117 -22.8029327392578,-149.970947265625 -22.8029327392578))",
+      "area": "POLYGON((-167.128616333008 -15.8916110992432,-167.128616333008 75.4164352416992,62.3486595153809 75.4164352416992,62.3486595153809 -15.8916110992432,-167.128616333008 -15.8916110992432))",
       "level": 2,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_10509a_160622_B7302_160624090848.h5?Signature=s7YxOyeeLwxPjmGAyCMGH9nP%2B%2FE%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdND_05762a_150801_B7000_150803110557.h5?Signature=no2MW%2Bo3JBw%2BMPYVJVnwM%2FwfCG4%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "OCO2",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T22:26:29.922000+00:00,2016-06-22T23:02:48.083000+00:00]",
+      "time": "[2015-08-01T23:07:09.282000+00:00,2015-08-01T23:39:35.643000+00:00]",
       "resolution": 0,
-      "size": 81410602
+      "size": 47851487
    },
    {
-      "area": "POLYGON((-146.111999511719 -55.7675552368164,-146.111999511719 78.3435668945312,107.395721435547 78.3435668945312,107.395721435547 -55.7675552368164,-146.111999511719 -55.7675552368164))",
+      "area": "POLYGON((-179.915710449219 -25.0473232269287,-179.915710449219 79.2738342285156,179.995529174805 79.2738342285156,179.995529174805 -25.0473232269287,-179.915710449219 -25.0473232269287))",
       "level": 2,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdND_10508a_160622_B7302_160624061929.h5?Signature=s4BjMbWF1wIM3GgX5UiBUsKktqo%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_05761a_150801_B7000_150803072159.h5?Signature=LObPbLt3P17CfsjOUHxIuFc3IFU%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "OCO2",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T20:39:33.030000+00:00,2016-06-22T21:25:56.750000+00:00]",
+      "time": "[2015-08-01T21:24:41.030000+00:00,2015-08-01T21:58:17.083000+00:00]",
       "resolution": 0,
-      "size": 87866866
+      "size": 82223357
    },
    {
-      "area": "POLYGON((-149.054733276367 -43.7897148132324,-149.054733276367 79.0294723510742,157.819137573242 79.0294723510742,157.819137573242 -43.7897148132324,-149.054733276367 -43.7897148132324))",
+      "area": "POLYGON((-123.44425201416 0.02639090269804,-123.44425201416 71.8944702148438,104.159027099609 71.8944702148438,104.159027099609 0.02639090269804,-123.44425201416 0.02639090269804))",
       "level": 2,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_10507a_160622_B7302_160624043919.h5?Signature=G26fvFDqbbDWRxbA6E%2Bep13L4f0%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdND_05760a_150801_B7000_150803032851.h5?Signature=9wVwXMK08BmS9PhCK8SwfTFPaJQ%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "OCO2",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T19:02:11.057000+00:00,2016-06-22T19:45:02.750000+00:00]",
+      "time": "[2015-08-01T19:53:46.670000+00:00,2015-08-01T20:22:56.083000+00:00]",
       "resolution": 0,
-      "size": 81212127
+      "size": 152785880
    },
    {
-      "area": "POLYGON((-131.860153198242 -38.4116592407227,-131.860153198242 74.3726425170898,20.6945629119873 74.3726425170898,20.6945629119873 -38.4116592407227,-131.860153198242 -38.4116592407227))",
+      "area": "POLYGON((-74.8198699951172 -24.6225643157959,-74.8198699951172 81.5330047607422,9.93937206268311 81.5330047607422,9.93937206268311 -24.6225643157959,-74.8198699951172 -24.6225643157959))",
       "level": 2,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_10503a_160622_B7302_160623184640.h5?Signature=J1bKGzRWFMggjGP0VXJXELljwyM%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdND_05756a_150801_B7000_150802160931.h5?Signature=KlOz8e8y%2BmsMAfJ5RWjFvCVrha8%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "OCO2",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T12:28:21.256000+00:00,2016-06-22T13:10:36.417000+00:00]",
+      "time": "[2015-08-01T13:11:26.417000+00:00,2015-08-01T13:42:14.750000+00:00]",
       "resolution": 0,
-      "size": 78822899
+      "size": 92142995
    },
    {
-      "area": "POLYGON((-74.7160415649414 -53.7065925598145,-74.7160415649414 81.5874099731445,102.992309570312 81.5874099731445,102.992309570312 -53.7065925598145,-74.7160415649414 -53.7065925598145))",
+      "area": "POLYGON((-1.66871500015259 -25.7946529388428,-1.66871500015259 67.8922729492188,33.2134819030762 67.8922729492188,33.2134819030762 -25.7946529388428,-1.66871500015259 -25.7946529388428))",
       "level": 2,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdND_10500a_160622_B7302_160623083155.h5?Signature=Tu%2F5Us0p0Cx4STiVBfChxyHAcGw%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_05755a_150801_B7000_150802050000.h5?Signature=M51Hl2a%2Fc0TYoknKvV98lA2y0AA%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "OCO2",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T07:29:04.390000+00:00,2016-06-22T08:13:24.697000+00:00]",
+      "time": "[2015-08-01T11:31:08.697000+00:00,2015-08-01T11:59:44.390000+00:00]",
       "resolution": 0,
-      "size": 42273492
+      "size": 65351327
    },
    {
-      "area": "POLYGON((-26.6740322113037 -33.1959114074707,-26.6740322113037 77.8858489990234,118.380065917969 77.8858489990234,118.380065917969 -33.1959114074707,-26.6740322113037 -33.1959114074707))",
+      "area": "POLYGON((-8.24764633178711 -24.881046295166,-8.24764633178711 79.4979934692383,82.4274444580078 79.4979934692383,82.4274444580078 -24.881046295166,-8.24764633178711 -24.881046295166))",
       "level": 2,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_10499a_160622_B7302_160623161326.h5?Signature=Fi97nHuQg8FQUj5FquSznBAZOKo%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_05753a_150801_B7000_150802151259.h5?Signature=R1jzlbcA8s%2BoC%2BQelC4DlexioA8%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "OCO2",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T05:54:26.949000+00:00,2016-06-22T06:34:21.417000+00:00]",
+      "time": "[2015-08-01T08:13:39.083000+00:00,2015-08-01T08:47:34.057000+00:00]",
       "resolution": 0,
-      "size": 83141078
+      "size": 84000921
    },
    {
-      "area": "POLYGON((-31.4290561676025 -42.3969230651855,-31.4290561676025 81.1611404418945,147.841354370117 81.1611404418945,147.841354370117 -42.3969230651855,-31.4290561676025 -42.3969230651855))",
+      "area": "POLYGON((-47.9485282897949 -19.2681694030762,-47.9485282897949 81.4560317993164,107.548553466797 81.4560317993164,107.548553466797 -19.2681694030762,-47.9485282897949 -19.2681694030762))",
       "level": 2,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdND_10498a_160622_B7302_160623112236.h5?Signature=SrXQQKdju%2BDq5yhtSFoaDTRDqzo%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdND_05752a_150801_B7000_150802080739.h5?Signature=JVLuroieiWybDnKyfyso3NxzHIg%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "OCO2",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T04:14:29.697000+00:00,2016-06-22T04:57:07.336000+00:00]",
+      "time": "[2015-08-01T06:37:22.697000+00:00,2015-08-01T07:10:27.643000+00:00]",
       "resolution": 0,
-      "size": 112152904
+      "size": 125505054
+   },
+   {
+      "area": "POLYGON((-178.940063476562 -30.0560817718506,-178.940063476562 79.5998077392578,178.033676147461 79.5998077392578,178.033676147461 -30.0560817718506,-178.940063476562 -30.0560817718506))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_05749a_150801_B7000_150802134955.h5?Signature=lnUJHWryzEd9jQAb94Y6anBdMlQ%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "OCO2",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-08-01T01:36:31.562000+00:00,2015-08-01T02:13:47.363000+00:00]",
+      "resolution": 0,
+      "size": 66890435
+   },
+   {
+      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
+      "level": 3,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03N/2015.08.01/MOP03N-20150801-L3V4.2.2.he5?Signature=y2TQ0WsT1RiTtyyo3Mm5ea92FHY%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "MOPITT",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-08-01T00:08:37+00:00,2015-08-01T23:53:10+00:00]",
+      "resolution": 0,
+      "size": 2805393
+   },
+   {
+      "area": "POLYGON((-166.510070800781 -9.09669971466064,-166.510070800781 80.9191513061523,169.005706787109 80.9191513061523,169.005706787109 -9.09669971466064,-166.510070800781 -9.09669971466064))",
+      "level": 2,
+      "cloud_cover": 0,
+      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdND_05748a_150731_B7000_150802085755.h5?Signature=gY8fT45ZzLTch%2F7AldWD9dutamI%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "source": "OCO2",
+      "band": "Hierarchical-Data-Format",
+      "time": "[2015-08-01T00:04:39.003000+00:00,2015-08-01T00:32:57.589000+00:00]",
+      "resolution": 0,
+      "size": 12498148
    },
    {
       "area": "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2016062220160624_03TRCLV0100.h5?Signature=TUzqXxWl8hnZeVSI%2Flhm%2Fle2pek%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2015080120150803_03TRCLV0100.h5?Signature=eKo1J8BSaoC2xraCGRqP5u%2BUA%2Fo%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "CAI",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:55:07+00:00,2016-06-24T23:59:20+00:00]",
+      "time": "[2015-08-01T00:00:27+00:00,2015-08-03T23:58:50+00:00]",
       "resolution": 0,
-      "size": 99657088
-   },
-   {
-      "area": "POLYGON((-179.995742797852 -43.3551940917969,-179.995742797852 79.8259048461914,179.999465942383 79.8259048461914,179.999465942383 -43.3551940917969,-179.995742797852 -43.3551940917969))",
-      "level": 2,
-      "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/OCO2/OCO2-L2/oco2_L2StdGL_10496a_160622_B7302_160623145855.h5?Signature=V5eFtAYxchLgC%2F%2BIMZ2jT7Wm2Eo%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
-      "source": "OCO2",
-      "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:54:37.282000+00:00,2016-06-22T01:36:55.724000+00:00]",
-      "resolution": 0,
-      "size": 73171424
+      "size": 99658936
    },
    {
       "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03N/2016.06.22/MOP03N-20160622-L3V4.6.2.he5?Signature=7WzKhaKL%2FO7lKA%2BbqYtNdyrYj8o%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03J/2015.08.01/MOP03J-20150801-L3V4.2.3.he5?Signature=YkhfTjo4axfB6g0Rkse8y7fc1IY%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "MOPITT",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:00:49+00:00,2016-06-22T23:09:49+00:00]",
+      "time": "[2015-08-01T00:00:15+00:00,2015-08-01T23:59:45+00:00]",
       "resolution": 0,
-      "size": 2343625
+      "size": 10655248
    },
    {
       "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03T/2016.06.22/MOP03T-20160622-L3V4.6.1.he5?Signature=GgHt%2BKMq6ecFV%2FMkC9tNWhmx2hM%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03T/2015.08.01/MOP03T-20150801-L3V4.2.1.he5?Signature=Wav4ZuxT5hMOHS4SX1ZQAgwGx0g%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "MOPITT",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:00:24+00:00,2016-06-23T00:00:06+00:00]",
+      "time": "[2015-08-01T00:00:15+00:00,2015-08-01T23:59:45+00:00]",
       "resolution": 0,
-      "size": 10790196
+      "size": 10715663
    },
    {
-      "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
-      "level": 3,
-      "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03J/2016.06.22/MOP03J-20160622-L3V4.6.3.he5?Signature=N%2B3QSTbD4fNNXbwG4%2FldaVSiZt0%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
-      "source": "MOPITT",
-      "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:00:24+00:00,2016-06-23T00:00:06+00:00]",
-      "resolution": 0,
-      "size": 10712743
-   },
-   {
-      "area": "POLYGON((-179.999633789062 -84.9830780029297,-179.999633789062 84.7812805175781,179.99641418457 84.7812805175781,179.99641418457 -84.9830780029297,-179.999633789062 -84.9830780029297))",
+      "area": "POLYGON((-179.999237060547 -84.9835433959961,-179.999237060547 84.7832565307617,179.998947143555 84.7832565307617,179.998947143555 -84.9835433959961,-179.999237060547 -84.9835433959961))",
       "level": 1,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L1/2016.06.22/MOP01-20160622-L1V3.42.0.he5?Signature=%2FSNlsy9IXXDOpX1SPTlIyAibOy8%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L1/2015.08.01/MOP01-20150801-L1V3.42.0.he5?Signature=nZbUTVh2U0HvNSY4vO6TKu%2BPDdE%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "MOPITT",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:00:09+00:00,2016-06-22T23:59:54+00:00]",
+      "time": "[2015-08-01T00:00:10+00:00,2015-08-01T23:59:52+00:00]",
       "resolution": 0,
-      "size": 158866723
+      "size": 208421495
    },
    {
       "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRS3SPD/2016/AIRS.2016.06.22.L3.RetSup_IR001.v6.0.31.0.G16176111008.hdf?Signature=afMimS%2F9rZOvZge7tLtqr6TuV2w%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRX3SPD/2015/AIRS.2015.08.01.L3.RetSup001.v6.0.31.0.G15214233134.hdf?Signature=%2B7AeuMPSySuw5ojq02PFq%2BxxX04%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "AIRS",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:00:00+00:00,2016-06-23T00:00:00+00:00]",
+      "time": "[2015-08-01T00:00:00+00:00,2015-08-02T00:00:00+00:00]",
       "resolution": 0,
-      "size": 476956252
+      "size": 495010207
    },
    {
       "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRX3SPD/2016/AIRS.2016.06.22.L3.RetSup001.v6.0.31.0.G16176110404.hdf?Signature=6NG1I8LV5vyIFBekFgPkocOWOPM%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRX3STD/2015/AIRS.2015.08.01.L3.RetStd001.v6.0.31.0.G15214230003.hdf?Signature=s8KCK8iMBmcVnsHApR3VRcb12FA%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "AIRS",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:00:00+00:00,2016-06-23T00:00:00+00:00]",
+      "time": "[2015-08-01T00:00:00+00:00,2015-08-02T00:00:00+00:00]",
       "resolution": 0,
-      "size": 479875138
+      "size": 392123767
    },
    {
       "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRS3STD/2016/AIRS.2016.06.22.L3.RetStd_IR001.v6.0.31.0.G16176101148.hdf?Signature=mYYDJiOgM7AVHVWJoctEb5r0Epg%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRS3SPD/2015/AIRS.2015.08.01.L3.RetSup_IR001.v6.0.31.0.G15214233143.hdf?Signature=1m%2B65C9sCFuTrod3SVak4itvkHc%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "AIRS",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:00:00+00:00,2016-06-23T00:00:00+00:00]",
+      "time": "[2015-08-01T00:00:00+00:00,2015-08-02T00:00:00+00:00]",
       "resolution": 0,
-      "size": 346951827
+      "size": 489720385
    },
    {
       "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRX3STD/2016/AIRS.2016.06.22.L3.RetStd001.v6.0.31.0.G16176101304.hdf?Signature=Mcx5gXugRnC6f4dkyS6ka3XL0eE%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/AQUA/AIRS-L3/AIRS3STD/2015/AIRS.2015.08.01.L3.RetStd_IR001.v6.0.31.0.G15214230515.hdf?Signature=s5goB0Zr7tmqbqbHRDicdFZRmjY%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "AIRS",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-22T00:00:00+00:00,2016-06-23T00:00:00+00:00]",
+      "time": "[2015-08-01T00:00:00+00:00,2015-08-02T00:00:00+00:00]",
       "resolution": 0,
-      "size": 379754085
+      "size": 355374992
    },
    {
       "area": "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2016062120160623_03TRCLV0100.h5?Signature=xa1cBo1kSEBmp6jSSsql5QSwkDM%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2015073120150802_03TRCLV0100.h5?Signature=hKcaxY6xL2Pcz3OaD85RKR3pRIE%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "CAI",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-21T00:22:23+00:00,2016-06-23T23:26:36+00:00]",
+      "time": "[2015-07-31T00:52:49+00:00,2015-08-02T23:58:36+00:00]",
       "resolution": 0,
-      "size": 99657088
+      "size": 99658936
    },
    {
       "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03T/2016.06.21/MOP03T-20160621-L3V4.6.1.he5?Signature=ZdwYHkrfbWYkSMlCi1KNAZ86VSg%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03J/2015.07.31/MOP03J-20150731-L3V4.2.3.he5?Signature=i6Uwysq7YCBuIr9cybiqMUDMPb8%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "MOPITT",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-21T00:00:11+00:00,2016-06-22T00:00:06+00:00]",
+      "time": "[2015-07-31T00:00:13+00:00,2015-08-01T00:00:06+00:00]",
       "resolution": 0,
-      "size": 10677942
+      "size": 10475515
    },
    {
       "area": "POLYGON((-179.5 -89.5,-179.5 89.5,179.5 89.5,179.5 -89.5,-179.5 -89.5))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03J/2016.06.21/MOP03J-20160621-L3V4.6.3.he5?Signature=auOdNOMY8iCtk8eP8Mn%2BsVHmqYM%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/TERRA/MOPITT-L3/MOP03T/2015.07.31/MOP03T-20150731-L3V4.2.1.he5?Signature=3HQ%2Bi8w0l890rYb0DdIDRlEzlp8%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "MOPITT",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-21T00:00:11+00:00,2016-06-22T00:00:06+00:00]",
+      "time": "[2015-07-31T00:00:13+00:00,2015-08-01T00:00:06+00:00]",
       "resolution": 0,
-      "size": 10615660
+      "size": 10553170
    },
    {
       "area": "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90))",
       "level": 3,
       "cloud_cover": 0,
-      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2016062020160622_03TRCLV0100.h5?Signature=LtqUr%2F4IU7IrUleKjRz4pBKC54A%3D&Expires=1474513513&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
+      "download_path": "https://skywatch-data.s3.amazonaws.com/GOSAT/CAI-L3/GOSATTCAI2015073020150801_03TRCLV0100.h5?Signature=IqoQL%2ByO5G2cju80WTwHNlH8Yyc%3D&Expires=1474817691&AWSAccessKeyId=AKIAJSPB2ROCVRJJ2BMQ",
       "source": "CAI",
       "band": "Hierarchical-Data-Format",
-      "time": "[2016-06-20T00:01:05+00:00,2016-06-22T23:59:30+00:00]",
+      "time": "[2015-07-30T00:20:05+00:00,2015-08-01T23:25:50+00:00]",
       "resolution": 0,
-      "size": 99657088
+      "size": 99658936
    }
 ]
