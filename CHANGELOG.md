@@ -11,3 +11,8 @@
 **New Features**
 * Added Landsat-8 imagery dataset.
 * Added comprehensive documentation and examples.
+
+### 0.3.1 (2016-09-25)
+
+**New Features**
+* API now supports Cross-origin resource sharing (CORS). 
