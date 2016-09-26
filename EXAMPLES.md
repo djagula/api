@@ -36,3 +36,4 @@ Other example calls:
 
 * [Python code](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.py)
 * [Java code](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.java)
+* [JavaScript using jQuery](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.zip)
