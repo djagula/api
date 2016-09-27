@@ -37,3 +37,4 @@ Other example calls:
 * [Python](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.py)
 * [Java](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.java)
 * [JavaScript using jQuery](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.zip) (courtesy of Rochester Institute of Technology's Space Exploration Research Group)
+* [R wrapper](https://github.com/amsantac/SkyWatchr) (courtesy of [amsantac](https://github.com/amsantac))
