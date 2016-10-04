@@ -31,7 +31,7 @@ Each signed URL can be directly downloaded through a browser or programmatically
 
 **api-key**
 
-If you would like an API key please contact duncan@skywatch.co. A personal API key will be provided to you.
+If you would like an API key please [sign-up](http://www.skywatch.co/request-access) to be added to the list. 
 
 **time-period** 
 
