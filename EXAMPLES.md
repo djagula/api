@@ -26,11 +26,11 @@ Other example calls:
 
 ```curl -H "x-api-key: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p" https://api.skywatch.co/data/time/2009-12-25/location/-71.1043443253471,-42.3150676015829/level/2```
 
-**[JSON output](https://github.com/skywatchspaceapps/api/blob/master/examples/example4.json)**
+*[JSON output](https://github.com/skywatchspaceapps/api/blob/master/examples/example4.json)*
 
 ```curl -H "x-api-key: 1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p" https://api.skywatch.co/data/time/2009-12-25/location/-71.1043443253471,-42.3150676015829```
 
-**[JSON output](https://github.com/skywatchspaceapps/api/blob/master/examples/example5.json)**
+*[JSON output](https://github.com/skywatchspaceapps/api/blob/master/examples/example5.json)*
 
 ### Programmatic Examples
 
