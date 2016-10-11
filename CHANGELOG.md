@@ -16,3 +16,10 @@
 
 **New Features**
 * API now supports Cross-origin resource sharing (CORS). 
+
+### 0.4 (2016-10-11)
+
+**New Features**
+* Order of parameters is no longer enforced.
+* Improved error messaging in API.
+* The resolution parameter now accepts floating-point (decimal values).
