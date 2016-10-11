@@ -15,15 +15,13 @@ API calls through the Command-Line Interface (CLI) or programmatically will retu
 ### API Usage
 ```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<coordinates>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelength-band>```
 
-**NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. However, the **order of the fields is crucial**, even if some field are omitted. For example, ```resolution/<resolution>``` can't come after ```band/<wavelengths>``` even if ```cloud-cover/<cloud-cover>``` is omitted.
-
-**NOTE:** The API supports backward compatibility with versions 0.1 and 0.2. e.g. ```https://cqh77pglf1.execute-api.us-west-2.amazonaws.com/prod/data/level/<data-level>/location/<coordinates>/time/<time-period>```
+**NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. The order of the fields is **not important**, and fields can be omitted. 
 
 ### Search Results, Limits, and Downloading the Data
 
 The search results from the JSON response are sorted by descending order of the date and time the image or the data were captured.
 
-The current API limits are 1000 requests per second, and 2000 bursts per request. 
+The current API limits are 1000 requests per second, and 2000 bursts per request. API calls **must** complete within 30 seconds. 
 
 Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
 
@@ -37,7 +35,7 @@ If you would like an API key please [sign-up](http://www.skywatch.co/request-acc
 
 One or two UTC timestamps in ISO format (yyyy-mm-ddThh:mm:ss.sssss+|-zzzz). Partial or complete dates and timestamps can be specified (e.g. 2009, 2009-12, 2009-12-25, 2009-12-25T13:25:00.0000+0000). If no time is specified, midnight UTC on the day in question is assumed. 
 
-If only one timestamp is passed in, a one day range is assumed. For example, if 2009-12-25 is specified, the search takes place as if 2009-12-25,2009-12-26 was specified. If the single timestamp is a month, that entire month is searched. For example if 2015-09 is specified, the search takes place as if midnight 2015-09-01 to midnight 2015-10-01 was specified. If a single year is specified, that entire year is searched. For example if 2015 is specified, the search takes place as if midnight 2015-01-01 to midnight 2016-01-01 was specified. 
+If only one timestamp is passed in, the range of one day is assumed. For example, if 2009-12-25 is specified, the search takes place as if 2009-12-25,2009-12-26 was specified. If the single timestamp is a month, that entire month is searched. For example if 2015-09 is specified, the search takes place as if midnight 2015-09-01 to midnight 2015-10-01 was specified. If a single year is specified, that entire year is searched. For example if 2015 is specified, the search takes place as if midnight 2015-01-01 to midnight 2016-01-01 was specified. 
 
 **coordinates**
 
@@ -58,15 +56,19 @@ Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and
 
 The data level is an optional path of the API URL that corresponds to the [data processing levels](http://science.nasa.gov/earth-science/earth-science-data/data-processing-levels-for-eosdis-data-products/) for Earth observation data. Level 1, 2, and 3 (L1, L2, L3) datasets are available. If no data level is specified, datasets of all levels will be returned. Only a single level can be specified.
 
-Choices are: *1, 2, and 3.*
+Choices are: *1, 2, or 3.*
 
 **max-resolution**
 
 This maximum resolution field is only applicable to imagery that's available through the API (i.e. Landsat-8). Resolution is in metres (m). Resolutions less-than or equal-to this value will be returned. The resolution for Landsat-8 is 30 m. All climate/atmospheric datasets have a resolution of 0 m, because it is not applicable. The maximum resolution is 30 m. If resolution is omitted all imagery or data matching other search criteria will be returned.
 
+Resolution must be 0 or greater, and can be a decimal value.
+
 **max-cloudcover**
 
 This maximum cloud cover field is only applicable to imagery that's available through the API (i.e. Landsat-8). Cloud cover is given as a percentage (%) of the image covered by cloud (0 to 100). Images less-than or equal-to this cloud cover value will be returned. All climate/atmospheric datasets have a cloud cover of 0%, because it is not applicable.If cloud cover is omitted all imagery or data matching other search criteria will be returned.
+
+Cloud cover must be between 0 and 100 (inclusive), and can be a decimal value.
 
 **wavelength-band**
 
