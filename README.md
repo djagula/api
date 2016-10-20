@@ -26,7 +26,7 @@ You can use the API to search satellite imagery and datasets by wavelength (band
 API calls through the Command-Line Interface (CLI) or programmatically will return a JSON (JavaScript Object Notation) response with a signed URL to download imagery and datasets that meet the search criteria.
 
 ### <h3 id="api">API Usage</h3>
-```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<longitude,latitude>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelength-band>```
+```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<longitude-latitude>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelength-band>```
 
 **NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. The order of the fields is **not important**, and fields can be omitted. 
 
@@ -50,7 +50,7 @@ One or two UTC timestamps in ISO format (yyyy-mm-ddThh:mm:ss.sssss+|-zzzz). Part
 
 If only one timestamp is passed in, the range of one day is assumed. For example, if 2009-12-25 is specified, the search takes place as if 2009-12-25,2009-12-26 was specified. If the single timestamp is a month, that entire month is searched. For example if 2015-09 is specified, the search takes place as if midnight 2015-09-01 to midnight 2015-10-01 was specified. If a single year is specified, that entire year is searched. For example if 2015 is specified, the search takes place as if midnight 2015-01-01 to midnight 2016-01-01 was specified. 
 
-**longitude,latitude**
+**longitude-latitude**
 
 A list of longitude, latitude coordinate pairs as a flat, comma-separated list. A list of two numbers represents a point, four numbers is a square area where the coordinates are the corners, or if there are more than four numbers the coordinates represent a closed polygon, where the first point equals the last point in the list. Because this list represents a number of points, there always has to be an even number of numbers in the list.
 
