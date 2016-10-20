@@ -112,8 +112,9 @@ The following list are links to documentation on the individual datasets availab
 
 The following list are links to documentation and resources that relate to HDF (Hierarchical Data Format; .hdf) (HDF4 and HDF5) file formats:
 
-* [HDF5](https://www.hdfgroup.org/HDF5/) - all non-image datasets except AIRS
-* [HDF4](https://www.hdfgroup.org/products/hdf4/) - all AIRS datasets
+* [HDFView](https://support.hdfgroup.org/products/java/hdfview/) - HDF file viewer
+* [HDF5](https://www.hdfgroup.org/HDF5/) - applicable for all non-image datasets except AIRS
+* [HDF4](https://www.hdfgroup.org/products/hdf4/) - applicable all AIRS datasets
 * Python libraries for HDF:
   * HDF5 - [h5py](http://www.h5py.org/)
   * HDF4 - [pyhdf](http://pysclint.sourceforge.net/pyhdf/)
