@@ -28,7 +28,7 @@ API calls through the Command-Line Interface (CLI) or programmatically will retu
 ### <h3 id="api">API Usage</h3>
 ```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<longitude-latitude>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelength-band>```
 
-**NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. The order of the fields is **not important**, and fields can be omitted. 
+**NOTE:** ```time/<time-period>``` and ```location/<longitude-latitude>``` are the only two mandatory fields - others are optional. The order of the fields is **not important**, and fields can be omitted. 
 
 ### <h3 id="results">Search Results, Limits, and Downloading the Data</h3>
 
@@ -53,6 +53,8 @@ If only one timestamp is passed in, the range of one day is assumed. For example
 **longitude-latitude**
 
 A list of longitude, latitude coordinate pairs as a flat, comma-separated list. A list of two numbers represents a point, four numbers is a square area where the coordinates are the corners, or if there are more than four numbers the coordinates represent a closed polygon, where the first point equals the last point in the list. Because this list represents a number of points, there always has to be an even number of numbers in the list.
+
+**NOTE:** The order of the coordinates for the API is longitude first, followed by latitude. When using applications such as Google Earth, coordinates are presented in latitude followed by longitude. 
 
 *Examples:* 
 * Point: -71.1043443253,-42.3150676016
