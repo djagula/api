@@ -1,5 +1,17 @@
 # SkyWatch API
-### Overview
+
+# Table of Contents
+
+1. <a href="#overview">Overview</a>
+2. API Usage
+3. API Fields
+4. Example API Calls
+5. Dataset Documentation
+6. HDF Documentation and Resources
+7. Known Issues
+8. Troubleshooting
+
+### <h2 id="overview">Overview</h2>
 Through the API you can access the following satellite imagery and climate/atmospheric datasets:
 * [Landsat-8](http://www.skywatch.co/landsat8-1) (Data level: level 1 - imagery only)
 * [AIRS](http://www.skywatch.co/airs) (Data level: level 2 and 3)
