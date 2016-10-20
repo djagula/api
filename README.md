@@ -13,13 +13,13 @@
 9. <a href="#troubleshooting">Troubleshooting</a>
 
 ### <h3 id="overview">Overview</h3>
-Through the API you can access the following satellite imagery and climate/atmospheric datasets:
-* [Landsat-8](http://www.skywatch.co/landsat8-1) (Data level: level 1 - imagery only)
-* [AIRS](http://www.skywatch.co/airs) (Data level: level 2 and 3)
-* [GOSAT/ACOS](http://www.skywatch.co/gosat) (Data level: level 2 and 3)
-* [MOPITT](http://www.skywatch.co/mopitt) (Data level: level 1 and 3)
-* [OCO-2](http://www.skywatch.co/oco2) (Data level: level 2 only)
-* [TES](http://www.skywatch.co/tes) (Data level: level 2 and 3)
+Through the API you can access the following satellite imagery and climate/atmospheric [datasets](http://www.skywatch.co/datasets-index):
+* Landsat-8 (Data level: level 1 - imagery only)
+* AIRS (Data level: level 2 and 3)
+* GOSAT/ACOS (Data level: level 2 and 3)
+* MOPITT (Data level: level 1 and 3)
+* OCO-2 (Data level: level 2 only)
+* TES (Data level: level 2 and 3)
 
 You can use the API to search satellite imagery and datasets by wavelength (band), cloud cover, resolution, data level, source, location, and date-time. 
 
