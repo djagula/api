@@ -1,6 +1,6 @@
 # SkyWatch API
 
-# Table of Contents
+## Table of Contents
 
 1. <a href="#overview">Overview</a>
 2. <a href="#api">API Usage</a>
