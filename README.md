@@ -50,7 +50,7 @@ One or two UTC timestamps in ISO format (yyyy-mm-ddThh:mm:ss.sssss+|-zzzz). Part
 
 If only one timestamp is passed in, the range of one day is assumed. For example, if 2009-12-25 is specified, the search takes place as if 2009-12-25,2009-12-26 was specified. If the single timestamp is a month, that entire month is searched. For example if 2015-09 is specified, the search takes place as if midnight 2015-09-01 to midnight 2015-10-01 was specified. If a single year is specified, that entire year is searched. For example if 2015 is specified, the search takes place as if midnight 2015-01-01 to midnight 2016-01-01 was specified. 
 
-**<longitude,latitude>**
+**longitude,latitude**
 
 A list of longitude, latitude coordinate pairs as a flat, comma-separated list. A list of two numbers represents a point, four numbers is a square area where the coordinates are the corners, or if there are more than four numbers the coordinates represent a closed polygon, where the first point equals the last point in the list. Because this list represents a number of points, there always has to be an even number of numbers in the list.
 
