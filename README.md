@@ -3,15 +3,16 @@
 # Table of Contents
 
 1. <a href="#overview">Overview</a>
-2. API Usage
-3. API Fields
-4. Example API Calls
-5. Dataset Documentation
-6. HDF Documentation and Resources
-7. Known Issues
-8. Troubleshooting
+2. <a href="#api">API Usage</a>
+3. <a href="#results">Search Results, Limits, and Downloading the Data</a>
+4. <a href="#fields">API Fields</a>
+5. <a href="#examples">Example API Calls</a>
+6. <a href="#documentation">Dataset Documentation</a>
+7. <a href="#hdf">HDF Documentation and Resources</a>
+8. <a href="#issues">Known Issues</a>
+9. <a href="#troubleshooting">Troubleshooting</a>
 
-### <h2 id="overview">Overview</h2>
+### <h3 id="overview">Overview</h3>
 Through the API you can access the following satellite imagery and climate/atmospheric datasets:
 * [Landsat-8](http://www.skywatch.co/landsat8-1) (Data level: level 1 - imagery only)
 * [AIRS](http://www.skywatch.co/airs) (Data level: level 2 and 3)
@@ -24,12 +25,12 @@ You can use the API to search satellite imagery and datasets by wavelength (band
 
 API calls through the Command-Line Interface (CLI) or programmatically will return a JSON (JavaScript Object Notation) response with a signed URL to download imagery and datasets that meet the search criteria.
 
-### API Usage
-```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<coordinates>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelength-band>```
+### <h3 id="api">API Usage</h3>
+```curl -H "x-api-key: <api-key>" https://api.skywatch.co/data/time/<time-period>/location/<longitude,latitude>/source/<instrument-satellite>/level/<data-level>/resolution/<max-resolution>/cloudcover/<max-cloudcover>/band/<wavelength-band>```
 
 **NOTE:** ```time/<time-period>``` and ```location/<coordinates>``` are the only two mandatory fields - others are optional. The order of the fields is **not important**, and fields can be omitted. 
 
-### Search Results, Limits, and Downloading the Data
+### <h3 id="results">Search Results, Limits, and Downloading the Data</h3>
 
 The search results from the JSON response are sorted by descending order of the date and time the image or the data were captured.
 
@@ -37,7 +38,7 @@ The current API limits are 1000 requests per second, and 2000 bursts per request
 
 Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
 
-### API Fields
+### <h3 id="fields">API Fields</h3>
 
 **api-key**
 
@@ -49,7 +50,7 @@ One or two UTC timestamps in ISO format (yyyy-mm-ddThh:mm:ss.sssss+|-zzzz). Part
 
 If only one timestamp is passed in, the range of one day is assumed. For example, if 2009-12-25 is specified, the search takes place as if 2009-12-25,2009-12-26 was specified. If the single timestamp is a month, that entire month is searched. For example if 2015-09 is specified, the search takes place as if midnight 2015-09-01 to midnight 2015-10-01 was specified. If a single year is specified, that entire year is searched. For example if 2015 is specified, the search takes place as if midnight 2015-01-01 to midnight 2016-01-01 was specified. 
 
-**coordinates**
+**<longitude,latitude>**
 
 A list of longitude, latitude coordinate pairs as a flat, comma-separated list. A list of two numbers represents a point, four numbers is a square area where the coordinates are the corners, or if there are more than four numbers the coordinates represent a closed polygon, where the first point equals the last point in the list. Because this list represents a number of points, there always has to be an even number of numbers in the list.
 
@@ -88,11 +89,11 @@ Search criteria can be specified by the wavelength bands for imagery (i.e. Lands
 
 Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive, and multiple bands can be specified (separated by commas).
 
-### Example API Calls
+### <h3 id="examples">Example API Calls</h3>
 
 Examples of API calls and outputs can be found [HERE](https://github.com/skywatchspaceapps/api/blob/master/EXAMPLES.md).
 
-### Dataset Documentation
+### <h3 id="documentation">Dataset Documentation</h3>
 
 The following list are links to documentation on the individual datasets available through the API:
 
@@ -107,7 +108,7 @@ The following list are links to documentation on the individual datasets availab
 * [TES](https://eosweb.larc.nasa.gov/project/tes/tes_table)
   * [L3 data](http://tes.jpl.nasa.gov/uploadedfiles/TES_DPS_V11.8.pdf)
 
-### HDF Documentation and Resources
+### <h3 id="hdf">HDF Documentation and Resources</h3>
 
 The following list are links to documentation and resources that relate to HDF (Hierarchical Data Format; .hdf) (HDF4 and HDF5) file formats:
 
@@ -117,10 +118,10 @@ The following list are links to documentation and resources that relate to HDF (
   * HDF5 - [h5py](http://www.h5py.org/)
   * HDF4 - [pyhdf](http://pysclint.sourceforge.net/pyhdf/)
 
-### Known Issues
+### <h3 id="issues">Known Issues</h3>
 
 * API calls that take longer than 30 seconds to complete will time out. We recommend refining your search criteria to be narrow enough to complete within 30 seconds.
 
-### Troubleshooting
+### <h3 id="troubleshooting">Troubleshooting</h3>
 
 For any issues or questions, please contact dexter@skywatch.co.
