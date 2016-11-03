@@ -52,7 +52,7 @@ If only one timestamp is passed in, the range of one day is assumed. For example
 
 **longitude-latitude**
 
-A list of longitude, latitude coordinate pairs as a flat, comma-separated list. A list of two numbers represents a point, four numbers is a square area where the coordinates are the corners, or if there are more than four numbers the coordinates represent a closed polygon, where the first point equals the last point in the list. Because this list represents a number of points, there always has to be an even number of numbers in the list.
+A list of longitude, latitude coordinate pairs as a flat, comma-separated list. A list of two numbers represents a point, four numbers is a square area where the coordinates are the corners, or if there are more than four numbers the coordinates represent a closed polygon, where the **first point equals the last point** in the list. Because this list represents a number of points, there always has to be an even number of numbers in the list.
 
 **NOTE:** The order of the coordinates for the API is longitude first, followed by latitude. When using applications such as Google Earth, coordinates are presented in latitude followed by longitude. 
 
