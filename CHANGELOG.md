@@ -9,7 +9,7 @@
 ### 0.3 (2016-09-22)
 
 **New Features**
-* Added Landsat-8 imagery dataset.
+* Added Landsat-8 imagery dataset (level 1).
 * Added comprehensive documentation and examples.
 
 ### 0.3.1 (2016-09-25)
@@ -23,3 +23,8 @@
 * Order of parameters is no longer enforced.
 * Improved error messaging in API.
 * The resolution parameter now accepts floating-point (decimal values).
+
+### 0.5 (2016-11-21)
+
+**New Features**
+* Added Sentinel-2 imagery dataset (level 1).
