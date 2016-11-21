@@ -67,6 +67,7 @@ A list of longitude, latitude coordinate pairs as a flat, comma-separated list. 
 Search criteria can be specified by the source of the data - either the instrument on-board the satellite or the satellite itself. Single or multiple sources can be specified. 
 
 Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR, Landsat-8, MOPITT, OCO2, Sentinel-2 and TES.* 
+
 This field is not case-sensitive, and multiple sources can be specified (separated by commas).
 
 **data-level**
