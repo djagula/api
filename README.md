@@ -14,6 +14,7 @@
 
 ### <h3 id="overview">Overview</h3>
 Through the API you can access the following satellite imagery and climate/atmospheric [datasets](http://www.skywatch.co/datasets-index):
+* Sentinel-2 (Data level: level 1 - imagery only)
 * Landsat-8 (Data level: level 1 - imagery only)
 * AIRS (Data level: level 2 and 3)
 * GOSAT/ACOS (Data level: level 2 and 3)
@@ -65,7 +66,7 @@ A list of longitude, latitude coordinate pairs as a flat, comma-separated list. 
 
 Search criteria can be specified by the source of the data - either the instrument on-board the satellite or the satellite itself. Single or multiple sources can be specified. 
 
-Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR,  Landsat-8, MOPITT, OCO2, and TES.* This field is not case-sensitive, and multiple sources can be specified (separated by commas).
+Choice of sources are: *ACOS, AIRS, CAI, FTS-SWIR, Landsat-8, MOPITT, OCO2, Sentinel-2 and TES.* This field is not case-sensitive, and multiple sources can be specified (separated by commas).
 
 **data-level**
 
