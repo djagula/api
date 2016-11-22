@@ -92,7 +92,7 @@ Cloud cover must be between 0 and 100 (inclusive), and can be a decimal value.
 
 Search criteria can be specified by the wavelength bands for imagery (i.e. Landsat-8) and by file type for non-imagery data (e.g. *Hierarchical-Data-Format*). 
 
-Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* 
+Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Datastrip (only for Sentinel-2; metadata for each tile), Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, Thermal-Infrared-2, Vegetation-Red-Edge-1, Vegetation-Red-Edge-2, Vegetation-Red-Edge-3, Vegetation-Red-Edge-4 and Water-Vapor.* 
 
 This field is not case-sensitive, and multiple bands can be specified (separated by commas).
 
