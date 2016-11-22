@@ -92,7 +92,9 @@ Cloud cover must be between 0 and 100 (inclusive), and can be a decimal value.
 
 Search criteria can be specified by the wavelength bands for imagery (i.e. Landsat-8) and by file type for non-imagery data (e.g. *Hierarchical-Data-Format*). 
 
-Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* This field is not case-sensitive, and multiple bands can be specified (separated by commas).
+Choices of bands are: *Blue, Cirrus, Coastal-Aerosol, Green, Hierarchical-Data-Format, Near-Infrared, Panchromatic, Red, Short-Wave-Infrared-1, Short-Wave Infrared-2, Thermal-Infrared-1, and Thermal-Infrared-2.* 
+
+This field is not case-sensitive, and multiple bands can be specified (separated by commas).
 
 ### <h3 id="examples">Example API Calls</h3>
 
