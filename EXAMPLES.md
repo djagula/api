@@ -2,6 +2,8 @@
 ### CLI Examples
 If you get a status 200, you will receive a JSON list of satellite data or imagery files that match the criteria, their sizes, and signed URL to download. The signed URLs **expire 1 hour after being generated.**
 
+If downloading via `wget` ensure double qoutes (") are around the signed URL. 
+
 **NOTE:** The API key specified (1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p) is just an example key. 
 
 One of the words largest landfills "Olusosun Dump" in Nigeria in August 1, 2015:
