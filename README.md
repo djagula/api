@@ -37,7 +37,7 @@ The search results from the JSON response are sorted by descending order of the 
 
 The current API limits are 1000 requests per second, and 2000 bursts per request. API calls **must** complete within 30 seconds. 
 
-Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated.
+Each signed URL can be directly downloaded through a browser or programmatically, which expires **1 hour** after being generated. If downloading via `wget` ensure double qoutes (") are around the signed URL. 
 
 ### <h3 id="fields">API Fields</h3>
 
