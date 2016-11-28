@@ -49,7 +49,7 @@ If you would like an API key please [sign-up](http://www.skywatch.co/request-acc
 
 One or two UTC timestamps in ISO format (yyyy-mm-ddThh:mm:ss.sssss+|-zzzz). Partial or complete dates and timestamps can be specified (e.g. 2009, 2009-12, 2009-12-25, 2009-12-25T13:25:00.0000+0000). If no time is specified, midnight UTC on the day in question is assumed. 
 
-If only one timestamp is passed in, the range of one day is assumed. For example, if 2009-12-25 is specified, the search takes place as if 2009-12-25,2009-12-26 was specified. If the single timestamp is a month, that entire month is searched. For example if 2015-09 is specified, the search takes place as if midnight 2015-09-01 to midnight 2015-10-01 was specified. If a single year is specified, that entire year is searched. For example if 2015 is specified, the search takes place as if midnight 2015-01-01 to midnight 2016-01-01 was specified. 
+If only one timestamp is passed in, the range of one day is assumed. For example, if 2009-12-25 is specified, the search takes place as if 2009-12-25T00:00:00.0000+0000,2009-12-25T23:59:59.9999+9999 was specified. If the single timestamp is a month, that entire month is searched. For example if 2015-09 is specified, the search takes place as if midnight 2015-09-01 to midnight 2015-10-01 was specified. If a single year is specified, that entire year is searched. For example if 2015 is specified, the search takes place as if midnight 2015-01-01 to midnight 2016-01-01 was specified. 
 
 **longitude-latitude**
 
