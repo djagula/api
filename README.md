@@ -105,7 +105,7 @@ Examples of API calls and outputs can be found [HERE](https://github.com/skywatc
 The following list are links to documentation on the individual datasets available through the API:
 
 * [Sentinel 2](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi)
-* [Landsat 8](http://landsat.usgs.gov//l8handbook.php)
+* [Landsat 8](https://landsat.usgs.gov/sites/default/files/documents/Landsat8DataUsersHandbook.pdf)
 * AIRS: [Version 6](http://disc.sci.gsfc.nasa.gov/AIRS/documentation/v6_docs):
   * [L3 data](http://disc.sci.gsfc.nasa.gov/AIRS/documentation/v6_docs/v6releasedocs-1/V6_L3_User_Guide.pdf)
 * [GOSAT/ACOS](http://disc.sci.gsfc.nasa.gov/acdisc/documentation/ACOS.html)
