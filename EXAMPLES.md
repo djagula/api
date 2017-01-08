@@ -4,7 +4,7 @@
 * [Python](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.py)
 * [Java](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.java)
 * [JavaScript using jQuery](https://github.com/skywatchspaceapps/api/blob/master/examples/skywatchapi_example.zip) (courtesy of [Rochester Institute of Technology's Space Exploration Research Group](https://sites.sg.rit.edu/spex/))
-* [R wrapper](https://github.com/amsantac/SkyWatchr) (courtesy of [Ali Santacruz](https://github.com/amsantac))
+* [R wrapper](https://cran.r-project.org/web/packages/SkyWatchr/index.html) (courtesy of [Ali Santacruz](https://github.com/amsantac))
 
 ### CLI Examples
 If you get a status 200, you will receive a JSON list of satellite data or imagery files that match the criteria, their sizes, and signed URL to download. The signed URLs **expire 1 hour after being generated.**
