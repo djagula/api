@@ -134,4 +134,4 @@ The following list are links to documentation and resources that relate to HDF (
 
 ### <h3 id="troubleshooting">Troubleshooting</h3>
 
-For any issues or questions, please contact dexter@skywatch.co.
+For any issues or questions, please contact support@skywatch.co.
